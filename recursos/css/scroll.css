@@ -1,0 +1,121 @@
+:root {
+
+    
+    /*el azul mas claro el del backround de la page*/
+    --color-scrollbar: #a8dadc;
+    --color-background-scrollbar: #f1faee;
+    --Color-hover: #457b9d;
+
+
+    --color-principal: #F1FAEE; /*Paleta Reserva 1 de Coolors color blanco*/
+    --color-secundary: #1d3557; /* el azul mas oscuro*/
+
+    --color-background: #a8dadc; /*el azul mas claro*/
+    --color-transparent: transparent;
+
+    --color-icono: #457b9d; /*azul intermedio USADO COMO HOVER*/
+    --color-subtitle: #1d3557; /*el mismo que el secundary*/
+
+    --color-hover: #457b9d; /*no he visto aún donde usarlo*/
+    --color-title: #05090f; /*el azul oscuro en su máximo oscuro*/
+    --color-text: #0f1c2e; /* entre el azul oscuro y el negro*/
+
+
+}
+
+
+/*SCROLL CHROME*/
+
+.content__page::-webkit-scrollbar {
+
+    width: 25px;
+    background: transparent;
+}
+
+.content__page::-webkit-scrollbar-thumb {
+
+    border: 10px solid transparent;
+    box-shadow: none;
+    border-radius: 40px;
+    
+}
+
+.content__page:hover::-webkit-scrollbar-thumb {
+
+    box-shadow: inset 0 0 0 10px var(--color-scrollbar);
+
+}
+
+.content__page:hover::-webkit-scrollbar-thumb:hover {
+
+    border: 9px solid transparent;
+    box-shadow: inset 0 0 0 10px var(--Color-hover);
+
+}
+
+.content__page::-webkit-scrollbar-track {
+
+    background-color: transparent;
+    margin: 40px 0;
+}
+
+/*SCROLL MOZ*/
+
+.content__page {
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar) transparent;
+
+}
+
+/*SCROLL CHROME barra lateral*/
+
+.layout__aside::-webkit-scrollbar {
+
+    width: 25px;
+    background: var(--color-secundary);
+}
+
+.layout__aside::-webkit-scrollbar-thumb {
+
+    border: 10px solid transparent;
+    box-shadow: none;
+    border-radius: 40px;
+    
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb {
+
+    box-shadow: inset 0 0 0 10px var(--color-principal);
+
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb:hover {
+
+    border: 9px solid transparent;
+    box-shadow: inset 0 0 0 10px var(--color-principal);
+
+}
+
+.layout__aside::-webkit-scrollbar-track {
+
+    background-color: transparent;
+    margin: 40px 0;
+}
+
+
+/*SCROLL MOZ barra lateral*/
+
+.layout__aside {
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-secundary) transparent;
+
+}
+
+
+
+
+
+
+

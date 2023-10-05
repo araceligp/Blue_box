@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Si no lu hubiese cambiado el navegador me preguntaría todo el rato por traducir-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Portfolio Araceli GP</title>
+    <!--Estilos-->
+    <link rel="stylesheet" type="text/css" href="./recursos/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./recursos/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="./recursos/css/scroll.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./recursos/css/loader.css"/>
+    <link rel="stylesheet" type="text/css" href="./recursos/css/responsive.css"/>
+    
+    <script src="recursos/js/map.js" defer></script>
+
+    <!--Script JS-->
+    <script src="recursos/js/menu.js" defer></script>
+
+</head>
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+        <!--Barra lateral (info del usuario)-->
+        <aside class="layout__aside">
+            <section class="aside__user_info">
+               <!--Información general usuario-->
+               <div class="user_info__general">
+                    <div class="user_info__container_img">
+                        <img src="recursos/img/fotoperfilaraceli.png" class="user_info__user_info_img" alt="foto de perfil Araceli"/>
+                    </div>
+                    <h2 class="user_info__name">Araceli García del Pozo</h2>
+                    <h4 class="user_info__job">UX Designer and Frontend Developer</h4>
+
+               </div>
+               <!--Menú navegación-->
+               <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-house"></i>
+                            <span class="menu__overlay">Home</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="aboutme.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-user"></i>
+                            <span class="menu__overlay">About me</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-graduation-cap"></i>
+                            <span class="menu__overlay">Curriculum</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-briefcase"></i>
+                            <span class="menu__overlay">Portfolio</span>
+
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-book"></i>
+                            <span class="menu__overlay">Blog</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link menu__link--active">
+                            <i class="menu__icon fa-solid fa fa-envelope"></i>
+                            <span class="menu__overlay">Contact</span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+               </nav>
+               <!--Links a redes sociales-->
+               <div class="user_info__user_links">
+                    <ul class="user_links__red_social">
+
+                        <li class="red_social__option">
+                            <a href="#" class="red_social__link" >
+                                <i class="red_social__icon fa-brands fa-youtube"></i>
+                            </a> 
+                        </li>
+
+                        <li class="red_social__option">
+                            <a href="#" class="red_social__link" >
+                                <i class="red_social__icon fa-brands fa-linkedin"></i>
+                            </a> 
+                        </li>
+
+                        <li class="red_social__option">
+                            <a href="#" class="red_social__link" >
+                                <i class="red_social__icon fa-brands fa-instagram"></i>
+                            </a> 
+                        </li>
+
+                    </ul>
+
+               </div>
+               <!--Botón de descargar CV-->
+               <div class="user_info__buttons">
+                    <a href="#" class="user_info__btn">Download CV</a>
+               </div>
+               <!--Footer-->
+               <footer class="user_info__footer">
+                    &copy; 2023 Araceli García del Pozo WEB
+               </footer>
+
+
+            </section>
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu_toggle">
+            <i class="menu_toggle__icon fa-solid fa-bars"></i>
+            <i class="menu_toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__contact">
+                <!--Esta es la parte que cambia en cada sección-->
+                
+                <header class="contact__header">
+                    <h1 class="contact__title">Contact</h1>
+                </header>
+
+                <div class="contact__container">
+
+                    <section class="contact__info">
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-location-dot"></i>
+                            <h2 class="contact__datainfo">Cork</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-phone"></i>
+                            <h2 class="contact__datainfo">+353 85 871 36 49</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-envelope"></i>
+                            <h2 class="contact__datainfo">araceli-44@hotmail.com</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-circle-check"></i>
+                            <h2 class="contact__datainfo">UX Design and Frontend Developer</h2>
+                        </div>
+
+                    </section>
+
+                    <section class="contact__form_box">
+
+                        <div class="contact__map" id="load-iframe-map">
+                            <span class="loader"></span>
+                            <iframe class="contact__iframe" frameborder="0" scrolling="no" marginheight="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19695.30639228255!2d-8.489933631435294!3d51.89904631791557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48449011eea438e1%3A0x89d820ed644651d1!2s26%20Knapp&#39;s%20Square%2C%20Shandon%2C%20Cork%2C%20T23%20TP46!5e0!3m2!1ses!2sie!4v1689271811162!5m2!1ses!2sie"></iframe>
+                        </div> 
+
+                        <header class="contact__form_header">
+                            <h3 class="contact__subtitle">How can I <span class="title__color">help you?</span></h3> 
+                        </header>
+
+                        <form class="contact__form">
+                            <div class="form__container">
+                                <section class="form__left">
+
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="name" required placeholder="Name">
+                                        <label for="name" class="form__label">Name</label>
+                                    </div>
+
+                                    <div class="form__group">
+                                        <input type="email" class="form__input" name="mail" required placeholder="Mail">
+                                        <label for="mail" class="form__label">Mail</label>
+                                    </div>
+
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="subject" required placeholder="Subject">
+                                        <label for="subject" class="form__label">Subject</label>
+                                    </div>
+
+                                </section>
+                                <section class="form__right">
+
+                                    <div class="form__group form__group--textarea">
+                                        <textarea class="form__input form__input--textarea" name="message" required placeholder="Message"></textarea>
+                                        <label for="message" class="form__label">Message</label>
+                                    </div>
+
+                                </section>
+
+                                
+                            </div>
+
+                            <input type="submit" class="form__button" value="Send message">
+                            
+                        </form>
+
+                    </section>
+
+                </div>
+
+                
+
+
+        
+                
+            </section>
+
+        </main>
+
+    </div>
+    
+</body>
+</html>

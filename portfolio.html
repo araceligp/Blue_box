@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Si no lu hubiese cambiado el navegador me preguntaría todo el rato por traducir-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Portfolio Araceli GP</title>
+    <!--Estilos-->
+    <link rel="stylesheet" type="text/css" href="./recursos/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./recursos/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="./recursos/css/scroll.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./recursos/css/responsive.css"/>
+
+    <!--Script JS-->
+    <script src="recursos/js/menu.js" defer></script>
+    
+</head>
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+        <!--Barra lateral (info del usuario)-->
+        <aside class="layout__aside">
+            <section class="aside__user_info">
+               <!--Información general usuario-->
+               <div class="user_info__general">
+                    <div class="user_info__container_img">
+                        <img src="recursos/img/fotoperfilaraceli.png" class="user_info__user_info_img" alt="foto de perfil Araceli"/>
+                    </div>
+                    <h2 class="user_info__name">Araceli García del Pozo</h2>
+                    <h4 class="user_info__job">UX Designer and Frontend Developer</h4>
+
+               </div>
+               <!--Menú navegación-->
+               <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-house"></i>
+                            <span class="menu__overlay">Home</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="aboutme.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-user"></i>
+                            <span class="menu__overlay">About me</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-graduation-cap"></i>
+                            <span class="menu__overlay">Curriculum</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link menu__link--active">
+                            <i class="menu__icon fa-solid fa fa-briefcase"></i>
+                            <span class="menu__overlay">Portfolio</span>
+
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-book"></i>
+                            <span class="menu__overlay">Blog</span>
+
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link">
+                            <i class="menu__icon fa-solid fa fa-envelope"></i>
+                            <span class="menu__overlay">Contact</span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+               </nav>
+               <!--Links a redes sociales-->
+               <div class="user_info__user_links">
+                    <ul class="user_links__red_social">
+
+                        <li class="red_social__option">
+                            <a href="#" class="red_social__link" >
+                                <i class="red_social__icon fa-brands fa-youtube"></i>
+                            </a> 
+                        </li>
+
+                        <li class="red_social__option">
+                            <a href="#" class="red_social__link" >
+                                <i class="red_social__icon fa-brands fa-linkedin"></i>
+                            </a> 
+                        </li>
+
+                        <li class="red_social__option">
+                            <a href="#" class="red_social__link" >
+                                <i class="red_social__icon fa-brands fa-instagram"></i>
+                            </a> 
+                        </li>
+
+                    </ul>
+
+               </div>
+               <!--Botón de descargar CV-->
+               <div class="user_info__buttons">
+                    <a href="#" class="user_info__btn">Download CV</a>
+               </div>
+               <!--Footer-->
+               <footer class="user_info__footer">
+                    &copy; 2023 Araceli García del Pozo WEB
+               </footer>
+
+
+            </section>
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu_toggle">
+            <i class="menu_toggle__icon fa-solid fa-bars"></i>
+            <i class="menu_toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__portfolio">
+                <!--Esta es la parte que cambia en cada sección-->
+
+                <header class="portfolio__header">
+                    <h1 class="portfolio__title">Portfolio</h1>
+                </header>
+
+                <nav class="portfolio__navbar">
+                    <ul class="portfolio__menu">
+
+                        <li class="portfolio__option portfolio__option--active">
+                            <a href="#" class="portfolio__link">Todo</a>
+                        </li>
+
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">UX</a>
+                        </li>
+
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Frontend</a>
+                        </li>
+
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Cursos</a>
+                        </li>
+
+                        <li class="portfolio__option">
+                            <a href="#" class="portfolio__link">Proyectos</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <section class="portfolio__gallery">
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container_img">
+                            <a href="#" class="gallery__link">
+                                <img src="recursos/img/galeria-1.jpg" class="gallery__img">                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Proyecto1</figcaption>
+                        <i class="gallery__icon fa-solid fa-video-camera"></i>
+                        <span class="gallery__category">Vídeos</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container_img">
+                            <a href="#" class="gallery__link">
+                                <img src="recursos/img/galeria-2.jpg" class="gallery__img">                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Proyecto2</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"></i>
+                        <span class="gallery__category">Categoría 2</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container_img">
+                            <a href="#" class="gallery__link">
+                                <img src="recursos/img/galeria-3.jpg" class="gallery__img">                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Proyecto3</figcaption>
+                        <i class="gallery__icon fa-solid fa-code-commit"></i>
+                        <span class="gallery__category">Categoría 3</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container_img">
+                            <a href="#" class="gallery__link">
+                                <img src="recursos/img/galeria-4.jpg" class="gallery__img">                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Proyecto4</figcaption>
+                        <i class="gallery__icon fa-solid fa-code-compare"></i>
+                        <span class="gallery__category">Categoría 4</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container_img">
+                            <a href="#" class="gallery__link">
+                                <img src="recursos/img/galeria-5.jpg" class="gallery__img">                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Proyecto5</figcaption>
+                        <i class="gallery__icon fa-solid fa-code-branch"></i>
+                        <span class="gallery__category">Categoría 5</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container_img">
+                            <a href="#" class="gallery__link">
+                                <img src="recursos/img/galeria-6.jpg" class="gallery__img">                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Proyecto6</figcaption>
+                        <i class="gallery__icon fa-solid fa-image-portrait"></i>
+                        <span class="gallery__category">Categoría 6</span>
+                    </figure>
+
+        
+                </section>
+        
+                
+            </section>
+
+        </main>
+
+    </div>
+    
+</body>
+</html>
